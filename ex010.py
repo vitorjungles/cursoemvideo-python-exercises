@@ -1,0 +1,5 @@
+din = float(input('Quanto dinheiro há em sua carteira? R$'))
+print('Segue lista de quantos dólares, euros e libras esterlinas poderá comprar: ')
+print('Com R${:.2f} dá para comprar US${:.2f}.'.format(din, din/5.17))
+print('Com R${:.2f} dá para comprar €{:.2f}.'.format(din, din/6.10))
+print('Com R${:.2f} dá para comprar GBP{:.2f}.'.format(din, din/6.72))
