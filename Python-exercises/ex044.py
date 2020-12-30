@@ -2,11 +2,11 @@ print('=' * 21)
 print('Calculadora de preços ')
 print('=' * 21)
 valor = float(input('Qual é o valor da compra? R$'))
-print('FORMAS DE PAGAMENTO')
-print('[ 1 ] à vista dinheiro/cheque')
-print('[ 2 ] à vista cartão')
-print('[ 3 ] 2x no cartão')
-print('[ 4 ] 3x ou mais no cartão')
+print("""FORMAS DE PAGAMENTO
+[ 1 ] à vista dinheiro/cheque
+[ 2 ] à vista cartão
+[ 3 ] 2x no cartão
+[ 4 ] 3x ou mais no cartão""")
 pagamento = int(input('Sua opção: '))
 avista = valor - (valor / 100 * 10)
 avistacartao = valor - (valor / 100 * 5)

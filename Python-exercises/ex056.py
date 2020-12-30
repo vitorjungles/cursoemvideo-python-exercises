@@ -1,6 +1,4 @@
-idadehomemvelho = 0
-mulheres = 0
-somaidade = 0
+idadehomemvelho = mulheres = somaidade = 0
 nomehomemvelho = ''
 print('=' * 60)
 print('Análise do nome, da idade e do sexo de um grupo de 4 pessoas')
