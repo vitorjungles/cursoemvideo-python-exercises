@@ -2,7 +2,7 @@
 Exercícios de Python resolvidos por mim durante o Curso em Vídeo de Python feito pelo prof. [Gustavo Guanabara](https://github.com/gustavoguanabara).
 
 ## Repositórios
-* [Clique aqui para acessar o repositório do curso](https://github.com/cursoemvideo/cursoemvideo-python)
+* [Clique aqui para acessar o repositório do Curso de Python](https://github.com/cursoemvideo/cursoemvideo-python)
 
 ## Playlists no YouTube
 * [Clique aqui para acessar a playlist do Mundo 1 do Curso de Python](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
