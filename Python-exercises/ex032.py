@@ -1,6 +1,6 @@
 from datetime import date
 from time import sleep
-ano = int(input('Que ano quer analisar? Coloque 0 para anlisar o ano em que você se encontra atualmente: '))
+ano = int(input('Que ano quer analisar? Coloque 0 para analisar o ano em que você se encontra atualmente: '))
 print('ANALISANDO...')
 sleep(3)
 if ano == 0:

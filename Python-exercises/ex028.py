@@ -1,7 +1,7 @@
 from random import randint
 from time import sleep
 print('-=-'*20)
-print('Vou escolher um número entre 0 e 5. Tente advinhar...')
+print('Vou escolher um número entre 0 e 5. Tente adivinhar...')
 print('-=-'*20)
 num1 = int(input('Que número escolhi? '))
 print('PROCESSANDO...')
