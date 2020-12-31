@@ -1,12 +1,12 @@
-# Exercícios de Python
-Exercícios de Python resolvidos por mim durante o **Curso em Vídeo de Python** feito pelo prof. [Gustavo Guanabara](https://github.com/gustavoguanabara).
+# Python exercises
+Python exercises solved by me during the **Python Course** done by professor [Gustavo Guanabara](https://github.com/gustavoguanabara) on the **Curso em Vídeo** platform.
 
-Obs: ainda não realizei todos os exercícios, mas irei resolvê-los gradativamente. 
+Some exercises are still being done.
 
-## Repositórios
-* [Clique aqui para acessar o repositório do Curso de Python](https://github.com/cursoemvideo/cursoemvideo-python)
+## Repositories
+* [Click here to access the Python Course repository](https://github.com/cursoemvideo/cursoemvideo-python)
 
-## Playlists no YouTube
-* [Clique aqui para acessar a playlist do Mundo 1 do Curso de Python](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
-* [Clique aqui para acessar a playlist do Mundo 2 do Curso de Python](https://www.youtube.com/playlist?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye)
-* [Clique aqui para acessar a playlist do Mundo 3 do Curso de Python](https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH)
+## Playlists on YouTube
+* [Click here to access the 1st World of the Python Course](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
+* [Click here to access the 2nd World of the Python Course](https://www.youtube.com/playlist?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye)
+* [Click here to access the 3rd World of the Python Course](https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH)
