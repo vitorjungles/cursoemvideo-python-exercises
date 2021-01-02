@@ -5,14 +5,14 @@ print('=' * 35)
 nasc = int(input('Digite o ano de nascimento do atleta: '))
 datapc = date.today().year
 anos = datapc - nasc
-print('O atleta tem {} anos. '.format(anos))
+print(f'O atleta tem {anos} anos.')
 if anos <= 9:
-    print('Sua classificação é MIRIM. ')
+    print('Sua classificação é MIRIM.')
 elif anos <= 14:
-    print('Sua classificação é INFANTIL. ')
+    print('Sua classificação é INFANTIL.')
 elif anos <= 19:
-    print('Sua classificação é JUNIOR. ')
+    print('Sua classificação é JUNIOR.')
 elif anos <= 25:
-    print('Sua classificação é SÊNIOR. ')
+    print('Sua classificação é SÊNIOR.')
 elif anos > 25:
-    print('Sua classificação é MASTER. ')
+    print('Sua classificação é MASTER.')
