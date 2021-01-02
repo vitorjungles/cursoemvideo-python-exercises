@@ -8,6 +8,6 @@ print('PROCESSANDO...')
 sleep(3)
 num2 = randint(0, 5)
 if num1 == num2:
-    print('Parabéns, você venceu! O número {} foi o que escolhi!.'.format(num2))
+    print(f'Parabéns, você venceu! O número {num2} foi o que escolhi!.')
 else:
-    print('Infelizmente você perdeu. O número que escolhi foi {} e não {}'.format(num2, num1))
+    print(f'Infelizmente você perdeu. O número que escolhi foi {num2} e não {num1}.')

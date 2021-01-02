@@ -10,4 +10,4 @@ if resp == 'SIM':
         print(cont, '!')
     print('KABUM!!!')
 else:
-    print('Que peninha... ')
+    print('Que peninha...')
