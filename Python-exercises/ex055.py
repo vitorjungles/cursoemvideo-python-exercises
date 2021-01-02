@@ -1,5 +1,4 @@
-maior = 0
-menor = 0
+maior = menor = 0
 print('=' * 22)
 print('Leitor de peso (em Kg)')
 print('=' * 22)
@@ -14,5 +13,5 @@ for c in range(1, 6):
             maior = peso
         if peso < menor:
             menor = peso
-print('O maior peso foi {}Kg.'.format(maior))
-print('O menor peso foi {}Kg.'.format(menor))
+print(f'O maior peso foi {maior}Kg.')
+print(f'O menor peso foi {menor}Kg.')
