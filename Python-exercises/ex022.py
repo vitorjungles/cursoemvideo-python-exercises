@@ -1,0 +1,7 @@
+n = str(input('Digite seu nome completo: ')).strip()
+print('Aqui será mostrado: \n1°: Todas as letras do seu nome com maiúsculas e minúsculas. \n2°: Quantas letras ao todo há em seu nome (sem considerar os espaços). \n3°: Quantas letras tem o primeiro nome. ')
+mai = n.upper()
+min = n.lower()
+letado = len(n) - n.count(' ')
+letpri = n.find(' ')
+print('Eis aqui o resultado final: \n1°: {}, {}. \n2°: {}. \n3°: {}. '.format(mai, min, letado, letpri))
