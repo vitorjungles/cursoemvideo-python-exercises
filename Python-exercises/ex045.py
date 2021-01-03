@@ -19,28 +19,28 @@ print('Jogador jogou {}'.format(itens[opcao]))
 print('-=' * 11)
 if pc == 0:
     if opcao == 0:
-        print('EMPATOU! ')
+        print('EMPATOU!')
     elif opcao == 1:
-        print('JOGADOR GANHOU! ')
+        print('JOGADOR GANHOU!')
     elif opcao == 2:
-        print('COMPUTADOR GANHOU! ')
+        print('COMPUTADOR GANHOU!')
     else:
-        print('OPÇÃO INVÁLIDA. JOGUE NOVAMENTE! ')
+        print('OPÇÃO INVÁLIDA. JOGUE NOVAMENTE!')
 elif pc == 1:
     if opcao == 0:
-        print('COMPUTADOR GANHOU! ')
+        print('COMPUTADOR GANHOU!')
     elif opcao == 1:
-        print('EMPATOU! ')
+        print('EMPATOU!')
     elif opcao == 2:
-        print('JOGADOR GANHOU! ')
+        print('JOGADOR GANHOU!')
     else:
-        print('OPÇÃO INVÁLIDA. JOGUE NOVAMENTE! ')
+        print('OPÇÃO INVÁLIDA. JOGUE NOVAMENTE!')
 elif pc == 2:
     if opcao == 0:
-        print('JOGADOR GANHOU! ')
+        print('JOGADOR GANHOU!')
     elif opcao == 1:
-        print('COMPUTADOR GANHOU! ')
+        print('COMPUTADOR GANHOU!')
     elif opcao == 2:
-        print('EMPATOU! ')
+        print('EMPATOU!')
     else:
-        print('OPÇÃO INVÁLIDA. JOGUE NOVAMENTE! ')
+        print('OPÇÃO INVÁLIDA. JOGUE NOVAMENTE!')
