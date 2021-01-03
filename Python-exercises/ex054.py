@@ -6,7 +6,7 @@ print('Irei verificar a idade de 7 pessoas e indicar se são maiores de idade ou
 contmen = contmai = 0
 anopc = date.today().year
 for c in range(1, 8):
-    ano = int(input('Insira a data de nascimento da {}ª pessoa: '.format(c)))
+    ano = int(input(f'Insira a data de nascimento da {c}ª pessoa: '))
     idade = anopc - ano
     if idade < 21:
         contmen += 1
