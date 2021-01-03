@@ -1,8 +1,8 @@
 num = int(input('Digite um número para visualizar sua Tabuada: '))
 ig = '=' * 12
-print('A Tabuada do número {} é:'.format(num))
+print(f'A Tabuada do número {num} é:')
 print(ig)
 for c in range(0, 11):
-    print('{} x  {} = {} '.format(num, c, num*c))
+    print(f'{num} x  {c} = {num*c}')
 print(ig)
 print('Acabou')
