@@ -1,2 +1,2 @@
 nome = input('Digite seu nome: ')
-print('Seja muito bem vindo, meu caro {}! '.format(nome))
+print(f'Seja muito bem vindo, meu caro {nome}!')
