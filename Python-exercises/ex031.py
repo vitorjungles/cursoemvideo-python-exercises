@@ -1,6 +1,6 @@
 d = float(input('Qual é a distância da sua viagem? '))
-print(f'A distância da sua viagem será de {d}Km. Portanto:')
+print(f'A distância da sua viagem será de {d}Km.')
 if d <= 200:
-    print('O valor da sua passagem será de R${:.2f}.'.format(d * 0.50))
+    print(f'O valor da sua passagem será de R${d * 0.50:.2f}.')
 else:
-    print('O valor da sua passagem será de R${:.2f}.'.format(d * 0.45))
+    print(f'O valor da sua passagem será de R${d * 0.45:.2f}.')

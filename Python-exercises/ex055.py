@@ -2,9 +2,9 @@ maior = menor = 0
 print('=' * 22)
 print('Leitor de peso (em Kg)')
 print('=' * 22)
-print('Irei ler o peso de 5 pessoas e verificar qual é o maior e o menor peso. ')
+print('Irei ler o peso de 5 pessoas e verificar qual é o maior e o menor peso.')
 for c in range(1, 6):
-    peso = float(input('Insira o peso da {}ª pessoa (em Kg): '.format(c)))
+    peso = float(input(f'Insira o peso da {c}ª pessoa (em Kg): '))
     if c == 1:
         maior = peso
         menor = peso

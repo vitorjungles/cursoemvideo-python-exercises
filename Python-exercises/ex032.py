@@ -6,6 +6,6 @@ sleep(3)
 if ano == 0:
     ano = date.today().year
 if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
-    print(f'Você está no ano de {ano} e esse ano é BISSEXTO.')
+    print(f'Você está no ano de {ano} e esse ano É BISSEXTO.')
 else:
-    print(f'Você está no ano de {ano} e esse ano NÃO é BISSEXTO.')
+    print(f'Você está no ano de {ano} e esse ano NÃO É BISSEXTO.')

@@ -1,7 +1,7 @@
 dezoito = h = m = 0
 while True:
     print('-'*25)
-    print('{:^26}'.format('CADASTRE UMA PESSOA'))
+    print(f'{"CADASTRE UMA PESSOA":^26}')
     print('-'*25)
     idade = int(input('Idade: '))
     sexo = ' '

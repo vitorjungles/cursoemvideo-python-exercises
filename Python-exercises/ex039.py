@@ -11,13 +11,13 @@ if tempoapos < 18 and sex == 'MASCULINO':
     print(f'RESTAM {18 - tempoapos} ANOS PARA O ALISTAMENTO!')
     print(f'Seu alistamento será em {datapc + 18 - tempoapos}.')
 elif tempoapos > 18 and sex == 'MASCULINO':
-    print('Quem nasceu em {} tem {} anos em {}.'.format(nasc, tempoapos, datapc))
+    print(f'Quem nasceu em {nasc} tem {tempoapos} anos em {datapc}.')
     print('Já passou o ano de alistamento militar, portanto, você não se alistará.')
-    print('JÁ SE PASSARAM {} ANOS DESDE O ALISTAMENTO.'.format(temporestante))
-    print('Seu alistamento foi em {}.'.format(datapc + 18 - tempoapos))
+    print(f'JÁ SE PASSARAM {temporestante} ANOS DESDE O ALISTAMENTO.')
+    print(f'Seu alistamento foi em {datapc + 18 - tempoapos}.')
 elif tempoapos == 18 and sex == 'MASCULINO':
-    print('Quem nasceu em {} tem {} anos em {}.'.format(nasc, tempoapos, datapc))
+    print(f'Quem nasceu em {nasc} tem {tempoapos} anos em {datapc}.')
     print('ALISTE-SE JÁ AO SERVIÇO MILITAR!')
     print('VOCÊ ESTÁ NO ANO DE ALISTAMENTO!')
 else:
-    print('O alistamento militar é para pessoas do sexo masculino, portanto, você não precisará se alistar.')
+    print('O alistamento militar é somente para pessoas do sexo masculino.')

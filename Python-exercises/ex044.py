@@ -1,12 +1,8 @@
 print('=' * 21)
-print('Calculadora de preços ')
+print('Calculadora de preços')
 print('=' * 21)
 valor = float(input('Qual é o valor da compra? R$'))
-print("""FORMAS DE PAGAMENTO
-[ 1 ] à vista dinheiro/cheque
-[ 2 ] à vista cartão
-[ 3 ] 2x no cartão
-[ 4 ] 3x ou mais no cartão""")
+print('FORMAS DE PAGAMENTO\n[ 1 ] à vista dinheiro/cheque\n[ 2 ] à vista cartão\n[ 3 ] 2x no cartão\n[ 4 ] 3x ou mais no cartão')
 pagamento = int(input('Sua opção: '))
 avista = valor - (valor / 100 * 10)
 avistacartao = valor - (valor / 100 * 5)
@@ -14,15 +10,15 @@ duasvezes = valor / 2
 if pagamento == 4:
     parcelas = int(input('Quantas parcelas? '))
     tresvezes = valor + (valor / 100 * 20)
-    print('Sua compra será parcelada em {}x de R${:.2f} COM JUROS.'.format(parcelas, tresvezes / parcelas))
-    print('Sua compra de R${:.2f} vai custar R${:.2f} no total.'.format(valor, tresvezes))
+    print(f'Sua compra será parcelada em {parcelas}x de R${tresvezes / parcelas:.2f} COM JUROS.')
+    print(f'Sua compra de R${valor:.2f} vai custar R${tresvezes:.2f} no total.')
 elif pagamento == 1:
-    print('Sua compra de R${:.2f} vai custar R${:.2f} no total.'.format(valor, avista))
+    print(f'Sua compra de R${valor:.2f} vai custar R${avista:.2f} no total.')
 elif pagamento == 2:
-    print('Sua compra de R${:.2f} vai custar R${:.2f} no total.'.format(valor, avistacartao))
+    print(f'Sua compra de R${valor:.2f} vai custar R${avistacartao:.2f} no total.')
 elif pagamento == 3:
-    print('Sua compra será parcelada em 2x de R${:.2f} SEM JUROS.'.format(duasvezes))
-    print('Sua compra vai custar R${:.2f} no total.'.format(valor))
+    print(f'Sua compra será parcelada em 2x de R${duasvezes:.2f} SEM JUROS.')
+    print(f'Sua compra vai custar R${valor:.2f} no total.')
 else:
     total = 0
-    print('OPÇÃO INVÁLIDA DE PAGAMENTO. TENTE NOVAMENTE!')
+    print('OPÇÃO INVÁLIDA. TENTE NOVAMENTE!')

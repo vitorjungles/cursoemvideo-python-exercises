@@ -1,10 +1,10 @@
 cont = soma = 0
-n = int(input('Digite um número inteiro [999 para finalizar]: '))
+n = int(input('Digite um número inteiro [999 para parar]: '))
 while n != 999:
     cont += 1
     soma += n
-    n = int(input('Digite um número inteiro [999 para finalizar]: '))
+    n = int(input('Digite um número inteiro [999 para parar]: '))
 if cont == 1:
-    print('Foi digitado {} número inteiro e sua soma foi {}.'.format(cont, soma))
+    print(f'Foi digitado {cont} número inteiro e sua soma foi {soma}.')
 else:
-    print('Foram digitados {} números inteiros e a soma entre eles foi {}.'.format(cont, soma))
+    print(f'Foram digitados {cont} números inteiros e a soma entre eles foi {soma}.')

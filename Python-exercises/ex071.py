@@ -1,6 +1,6 @@
-print('==' * 15)
-print('{:^30}'.format('BANCO CEV'))
-print('==' * 15)
+print('=='*15)
+print(f'{"BANCO CEV":^30}')
+print('=='*15)
 valor = float(input('Que valor você quer sacar? R$'))
 ced50 = ced20 = ced10 = ced1 = 0
 while True:
@@ -26,5 +26,5 @@ while True:
             print(f'Total de {ced1} cédulas de R$1.')
     else:
         break
-print('==' * 15)
+print('=='*15)
 print('Volte sempre ao BANCO CEV! Tenha um ótimo dia!')

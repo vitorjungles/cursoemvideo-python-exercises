@@ -1,8 +1,8 @@
 from time import sleep
 print('=' * 48)
-print('Contagem Regressiva para o Estourador de Rojões!')
+print('Contagem regressiva para o Estourador de Rojões')
 print('=' * 48)
-print('Quer estourar os Fogos de Artifício? ')
+print('Quer estourar os Fogos de Artifício?')
 resp = str(input('Responda Sim ou Não: ')).upper()
 if resp == 'SIM':
     for cont in range(10, -1, -1):
@@ -10,4 +10,4 @@ if resp == 'SIM':
         print(cont, '!')
     print('KABUM!!!')
 else:
-    print('Que peninha...')
+    print('Que pena...')
