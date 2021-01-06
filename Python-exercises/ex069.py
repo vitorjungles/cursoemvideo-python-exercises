@@ -19,7 +19,7 @@ while True:
         m += 1
     if op == 'N':
         break
-print('=='*3, 'FIM DO PROGRAMA', '='*7)
+print(f'{" FIM DO PROGRAMA ":=^30}')
 print(f'Total de pessoas com mais de 18 anos: {dezoito}.')
 print(f'Ao todo temos {h} homens cadastrados.')
 print(f'E temos {m} mulheres com menos de 20 anos.')

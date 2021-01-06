@@ -1,6 +1,6 @@
-print('-=' * 30)
+print('-='*30)
 print('CALCULADORA DE MÉDIAS E DO MAIOR E DO MENOR VALOR DIGITADOS')
-print('-=' * 30)
+print('-='*30)
 opcao = ''
 soma = cont = maior = menor = 0
 while opcao in 'S':
@@ -15,7 +15,7 @@ while opcao in 'S':
         if n < menor:
             menor = n
     cont += 1
-media = soma / cont
+media = soma/cont
 if cont == 1:
     print(f'{cont} número foi digitado e sua média foi {media}.')
 else:

@@ -1,12 +1,11 @@
-print('=' * 23)
+print('='*23)
 print('DETECTOR DE PALÍNDROMOS')
-print('=' * 23)
-print('PALÍNDROMOS SÃO FRASES QUE PODEM SER LIDAS DE TRÁS PARA FRENTE SEM ALTERAÇÃO ALGUMA.')
+print('='*23)
 frase = str(input('Digite uma frase: ')).strip().upper()
 palavras = frase.split()
 junto = ''.join(palavras)
 inverso = ''
-for letra in range(len(junto) - 1, -1, -1):
+for letra in range(len(junto)-1, -1, -1):
     inverso += junto[letra]
 print(f'O inverso de {junto} é {inverso}.')
 if inverso == junto:

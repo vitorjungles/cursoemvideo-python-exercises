@@ -4,6 +4,6 @@ while True:
         break
     print('-'*30)
     for c in range(1, 11):
-        print(n, 'x', c, '=', (n * c))
+        print(n, 'x', c, '=', (n*c))
     print('-'*30)
 print('PROGRAMA ENCERRADO! VOLTE SEMPRE!')

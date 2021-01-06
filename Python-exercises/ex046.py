@@ -1,7 +1,7 @@
 from time import sleep
-print('=' * 48)
+print('='*48)
 print('Contagem regressiva para o Estourador de Rojões')
-print('=' * 48)
+print('='*48)
 print('Quer estourar os Fogos de Artifício?')
 resp = str(input('Responda Sim ou Não: ')).upper()
 if resp == 'SIM':

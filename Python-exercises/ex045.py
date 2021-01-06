@@ -10,10 +10,10 @@ print('KEN')
 sleep(1)
 print('PO!!!')
 pc = randint(0, 2)
-print('-=' * 11)
+print('-='*11)
 print(f'Computador jogou {itens[pc]}')
 print(f'Jogador jogou {itens[opcao]}')
-print('-=' * 11)
+print('-='*11)
 if pc == 0:
     if opcao == 0:
         print('EMPATOU!')

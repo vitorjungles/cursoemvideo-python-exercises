@@ -1,6 +1,6 @@
-print('=' * 39)
+print('='*39)
 print('Digite um número para ver seu fatorial.')
-print('=' * 39)
+print('='*39)
 num = int(input('Número escolhido: '))
 f = 1
 c = num

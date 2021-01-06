@@ -1,6 +1,6 @@
-print('=' * 30)
+print('='*30)
 print('Conversor de números inteiros')
-print('=' * 30)
+print('='*30)
 num = int(input('Número inteiro a ser convertido: '))
 print('Escolha a base que deseja converter, sendo:\n[ 1 ] para BINÁRIO\n[ 2 ] para OCTAL\n[ 3 ] para HEXADECIMAL')
 bases = int(input('Opção escolhida: '))

@@ -1,7 +1,7 @@
 s = cont = 0
-print('=' * 29)
+print('='*29)
 print('Somando seis números inteiros')
-print('=' * 29)
+print('='*29)
 for c in range(1, 7):
     num = int(input(f'Digite o {c}° número inteiro: '))
     if num % 2 == 0:

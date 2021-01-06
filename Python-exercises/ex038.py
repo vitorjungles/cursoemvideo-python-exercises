@@ -1,6 +1,6 @@
-print('=' * 30)
+print('='*30)
 print('Comparador de números inteiros')
-print('=' * 30)
+print('='*30)
 num1 = int(input('1° número: '))
 num2 = int(input('2° número: '))
 if num1 > num2:

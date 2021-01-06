@@ -1,5 +1,5 @@
 num = int(input('Digite um número para visualizar sua Tabuada: '))
-ig = '=' * 12
+ig = '='*12
 print(f'A Tabuada do número {num} é:')
 print(ig)
 print(f'{num} x  1 = {num*1}')

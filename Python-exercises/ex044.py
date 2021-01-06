@@ -1,16 +1,16 @@
-print('=' * 21)
+print('='*21)
 print('Calculadora de preços')
-print('=' * 21)
+print('='*21)
 valor = float(input('Qual é o valor da compra? R$'))
 print('FORMAS DE PAGAMENTO\n[ 1 ] à vista dinheiro/cheque\n[ 2 ] à vista cartão\n[ 3 ] 2x no cartão\n[ 4 ] 3x ou mais no cartão')
 pagamento = int(input('Sua opção: '))
-avista = valor - (valor / 100 * 10)
-avistacartao = valor - (valor / 100 * 5)
-duasvezes = valor / 2
+avista = valor-(valor/100*10)
+avistacartao = valor-(valor/100*5)
+duasvezes = valor/2
 if pagamento == 4:
     parcelas = int(input('Quantas parcelas? '))
-    tresvezes = valor + (valor / 100 * 20)
-    print(f'Sua compra será parcelada em {parcelas}x de R${tresvezes / parcelas:.2f} COM JUROS.')
+    tresvezes = valor+(valor/100*20)
+    print(f'Sua compra será parcelada em {parcelas}x de R${tresvezes/parcelas:.2f} COM JUROS.')
     print(f'Sua compra de R${valor:.2f} vai custar R${tresvezes:.2f} no total.')
 elif pagamento == 1:
     print(f'Sua compra de R${valor:.2f} vai custar R${avista:.2f} no total.')
