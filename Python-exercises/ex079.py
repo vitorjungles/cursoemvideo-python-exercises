@@ -6,11 +6,12 @@ while True:
         print('Valor duplicado. Não adicionado.')
     else:
         li.append(n)
-        print('Valor adicionado com sucesso...')
+        print('Valor adicionado com sucesso.')
     r = ' '
     while r not in 'SN':
         r = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
     if r == 'N':
         break
 print('-='*30)
-print(f'Você digitou os valores {sorted(li)}.')
+li.sort()
+print(f'Você digitou os valores {li}.')

@@ -2,24 +2,17 @@ li = [str(input('Digite a expressão: '))]
 lif = li[0].strip()
 posia = []
 posif = []
-v = bool
+v = False
 for pos, c in enumerate(lif):
     if lif[pos] == '(':
         posia.append(pos)
     if lif[pos] == ')':
         posif.append(pos)
-if len(posia) != len(posif):
-    print('Sua expressão está errada.')
-    v = False
-else:
+if len(posia) == len(posif):
     pos = 0
     for c in range(len(posia)):
-        if posia[pos] < posif[pos]:
+        if posia[c] < posif[c]:
             v = True
         else:
             v = False
-print(posia, posif)
-if v == True:
-    print('Sua expressão está válida.')
-else:
-    print('Sua expressão está errada.')
+print('Sua expressão está errada.' if v != True else 'Sua expressão está válida.')
