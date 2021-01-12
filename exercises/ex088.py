@@ -4,7 +4,7 @@ print('-'*30)
 print(f'{"JOGA NA MEGA SENA":^30}')
 print('-'*30)
 j = int(input('Quantos jogos quer sortear? '))
-print(f'{"-="*3} {" SORTEANDO 4 JOGOS "} {"-="*3}')
+print(f'{"-="*3}  SORTEANDO {j} JOGOS  {"-="*3}')
 li = []
 for c in range(0, j):
     li += [[]]

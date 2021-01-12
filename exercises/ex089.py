@@ -1,5 +1,4 @@
 li = [[]]
-m = 0.0
 co = cont = 1
 while True:
     li.append(str(input('Nome: ')))
@@ -19,8 +18,7 @@ print(f'N°{"NOME":>5}{"MÉDIA":>15}')
 print('-'*26)
 for c in li:
     if type(c) == str:
-        print(f'{cont-1:<3}{c:<16}', end='')
-        print(f'{li[co]:.1f}')
+        print(f'{cont-1:<3}{c:<15}{li[co]:>4.1f}')
         cont += 1
     co += 1
 while True:
@@ -29,5 +27,4 @@ while True:
     if al == 999:
         break
     print(f'Notas de {li[(2*al)+1]} são {li[0][al+al]} e {li[0][(al+al)+1]}.')
-print('FINALIZANDO...')
-print(f'{"<"*3} VOLTE SEMPRE {">"*3}')
+print('FINALIZANDO...', f'\n{"<"*3} VOLTE SEMPRE {">"*3}')
