@@ -5,5 +5,6 @@ def escreva(txt):
     print('~'*tam)
 
 
-msg = str(input('Qual mensagem? ')).strip()
-escreva(msg)
+escreva('Gustavo Guanabara')
+escreva('Curso de Python no Youtube')
+escreva('CeV')
