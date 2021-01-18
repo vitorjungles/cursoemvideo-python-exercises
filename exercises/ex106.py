@@ -11,11 +11,11 @@ def t(msg, c='\033[m'):
 
 while True:
     t('SISTEMA DE AJUDA PyHELP', '\033[0;97;42m')
-    co = str(input('\033[mFunção ou Biblioteca > ')).strip().upper()
-    if co == 'FIM':
+    co = str(input('\033[mFunção ou Biblioteca > ')).strip()
+    if co.upper() == 'FIM':
         t('ATÉ LOGO!', '\033[0;97;41m')
         break
     else:
-        t(f"Acessando o manual do comando '{co.lower()}'", '\033[0;97;44m')
-        help(co.lower())
+        t(f"Acessando o manual do comando '{co}'", '\033[0;97;44m')
+        help(co)
         sleep(2)
