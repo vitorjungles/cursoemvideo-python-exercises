@@ -1,22 +1,21 @@
 from time import sleep
-while True:
-    print('\033[0;97;42m~'*27)
-    print(f'{"SISTEMA DE AJUDA PyHELP":^27}')
-    print('~'*27)
+
+
+def t(msg, c='\033[m'):
+    print(f'{c}~'*(len(msg)+4))
+    print(f'  {msg}')
+    print('~'*(len(msg)+4))
+    print('\033[0;30;107m', end='')
     sleep(1)
+
+
+while True:
+    t('SISTEMA DE AJUDA PyHELP', '\033[0;97;42m')
     co = str(input('\033[mFunção ou Biblioteca > ')).strip().upper()
     if co == 'FIM':
-        txt = '  ATÉ LOGO'
-        print('\033[0;97;41m~'*(len(txt)+2))
-        print(txt)
-        print(f'{"~"*(len(txt)+2)}')
+        t('ATÉ LOGO!', '\033[0;97;41m')
         break
     else:
-        txt = f"{'  Acessando o manual do comando':^30} '{co.lower()}'"
-        print('\033[0;97;44m~'*(len(txt)+2))
-        print(txt)
-        print(f'{"~"*(len(txt)+2)}')
-        sleep(1)
-        print('\033[0;30;107m')
+        t(f"Acessando o manual do comando '{co.lower()}'", '\033[0;97;44m')
         help(co.lower())
-        sleep(1)
+        sleep(2)
