@@ -3,4 +3,6 @@ def leiadinheiro(txt):
     while not v.replace(',', '').replace('.', '').isnumeric():
         print(f'\033[0;31mERRO: "{v}" é um preço inválido!\033[m')
         v = input(txt).strip()
+    v = v.replace(',', '.')
+    v = float(v)
     return v
