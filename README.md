@@ -1,8 +1,6 @@
 # Python exercises
 Python exercises solved by me during the **Python Course** done by professor [Gustavo Guanabara](https://github.com/gustavoguanabara) on the **Curso em Vídeo** platform.
 
-**If you found a bug, create a Pull Request, please.**
-
 ## Repositories
 * [Click here to access the Python Course repository](https://github.com/cursoemvideo/cursoemvideo-python)
 
